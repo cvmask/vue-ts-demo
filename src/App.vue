@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <!-- <MenuBar />
+    <MenuBar />
     <ItemList />
-    <MenuEdit /> -->
+    <MenuEdit />
   </div>
 </template>
 

@@ -1,10 +1,14 @@
 import Vue from "vue";
-import vuex from "vuex";
+import Vuex from "vuex";
+import DataAction from './DataAction'
 
-Vue.use(vuex);
+Vue.use(Vuex);
 
-export default new vuex.Store({
-  state: {},
+export default new Vuex.Store({
+  state: {
+    isShow: false,
+    dataAction: new DataAction()
+  },
 
   actions: {},
 

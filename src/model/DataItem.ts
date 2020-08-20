@@ -2,7 +2,7 @@ import Category from "./CateEnum";
 
 class DataItem {
   id!: number;
-  categoryId!: string;
+  categoryId!: number;
   title!: string;
   content!: string;
   createTime!: string;
